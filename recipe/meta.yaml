@@ -1,5 +1,5 @@
 {% set name = "invariant-point-attention" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/invariant-point-attention-{{ version }}.tar.gz
-  sha256: d69062f6bcbd5859381494c8338ed78ce7a44a8ca804dc2f8aa3e28eaeecbbd4
+  sha256: e741679369119e42019bb134a6609e1a8cd1c40451cf9e1f768bc5600af02856
 
 build:
   noarch: python
